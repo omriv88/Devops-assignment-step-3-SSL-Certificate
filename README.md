@@ -8,11 +8,11 @@ Create SSL Certificates for nginx in Kubernetes , manage the SSL Certificate in 
 
 - 2 create secret for the dns provider :
 - $ kubectl apply -f .\secret-cloudflare.yml
-![image](https://user-images.githubusercontent.com/113102456/233779760-523ea69c-aa84-4780-9019-18c7e53f79be.png)
+![image](https://user-images.githubusercontent.com/113102456/233783458-ab8c6371-a082-4fac-baab-57cc875c04a3.png)
 
 - 3 Create and configure cluster issuer:
 - $ kubectl apply -f .\clusterissuer-acme.yml
-![image](https://user-images.githubusercontent.com/113102456/233780001-497e350a-c032-4843-aa44-76408f2e0822.png)
+![image](https://user-images.githubusercontent.com/113102456/233783476-0bd56a69-0a0a-4f56-aa37-07734017c0a1.png)
 
 - 3 Create new A record in your dns provider iclude your public ip 
 
