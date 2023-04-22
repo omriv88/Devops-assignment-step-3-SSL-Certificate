@@ -11,7 +11,7 @@ Create SSL Certificates for nginx in Kubernetes , manage the SSL Certificate in 
 ![image](https://user-images.githubusercontent.com/113102456/233783458-ab8c6371-a082-4fac-baab-57cc875c04a3.png)
 
 - 3 Create and configure cluster issuer:
-- $ kubectl apply -f .\clusterissuer-acme.yml
+- $ kubectl apply -f .\clusterissuer-acme.yml 
 ![image](https://user-images.githubusercontent.com/113102456/233783476-0bd56a69-0a0a-4f56-aa37-07734017c0a1.png)
 
 - 3 Create new A record in your dns provider iclude your public ip 
