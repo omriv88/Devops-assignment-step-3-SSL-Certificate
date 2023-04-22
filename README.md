@@ -30,6 +30,6 @@ Create SSL Certificates for nginx in Kubernetes , manage the SSL Certificate in 
 - $ kubectl apply -f .\nginx-ingress.yml
 ![image](https://user-images.githubusercontent.com/113102456/233780251-7fd3c811-3779-4f3c-b574-f35d6787f6d0.png)
 
-- 7 paste the url: nginx1.omriv.com in ypur browser:
+- 7 paste the url: nginx1.omriv.com in your browser:
 ![image](https://user-images.githubusercontent.com/113102456/233780453-a08b08ac-9194-411f-9fe8-d5a729c020fc.png)
 
