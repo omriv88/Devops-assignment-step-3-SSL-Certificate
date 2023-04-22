@@ -20,7 +20,7 @@ Create SSL Certificates for nginx in Kubernetes , manage the SSL Certificate in 
 - $ kubectl apply -f .\certificate.yaml
 ![image](https://user-images.githubusercontent.com/113102456/233780124-1a2e91a3-8192-4904-848a-0e30951a1e7a.png)
 
--5 Deploy the nginx:
+- 5 Deploy the nginx:
 - $ kubectl apply -f .\deploy
 - $ kubectl apply -f .\service
 ![image](https://user-images.githubusercontent.com/113102456/233780197-3cf1e1ba-b5cf-4e06-af3d-fd7a350f2faf.png)
