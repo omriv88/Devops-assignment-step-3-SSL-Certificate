@@ -1,4 +1,4 @@
-# Devops-assignment-step-3
+# Devops-assignment-step-3 
 Create SSL Certificates for nginx in Kubernetes , manage the SSL Certificate in Kubernetes with Cert-Manager, use the ssl Certificate in Traefik Ingress Controller. 
 
 
